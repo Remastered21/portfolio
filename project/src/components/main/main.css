@@ -1,0 +1,140 @@
+.container_Main {
+	width: 100vw;
+	height: 100vh;
+	background: linear-gradient(70deg, #191919 30%, rgba(0, 0, 0, 0) 30%),
+		linear-gradient(30deg, #212021 60%, #262525 60%);
+}
+
+.title {
+	padding-top: 13vh;
+	font-family: 'Oswald', sans-serif;
+	font-size: 11em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.title_border {
+	height: 100%;
+	color: transparent;
+}
+
+.title_text {
+	/* border: 1px solid red; */
+	/* min-width: 10vw; */
+	margin-top: 35px;
+	color: #e5e5e5;
+}
+
+@keyframes enlarge_border {
+	0% {
+		color: transparent;
+		font-size: 0;
+	}
+	50% {
+		color: orange;
+	}
+	100% {
+		color: orange;
+		font-size: 11rem;
+	}
+}
+@keyframes enlarge_title {
+	0% {
+		color: transparent;
+		font-size: 0;
+	}
+	50% {
+		color: #e5e5e5;
+	}
+	100% {
+		color: #e5e5e5;
+		font-size: 11rem;
+	}
+}
+
+.enlarge_border {
+	animation: enlarge_border 1s ease forwards;
+	animation-delay: 1s;
+}
+.enlarge_title {
+	animation: enlarge_title 1s ease forwards;
+	animation-delay: 1s;
+}
+
+.blink {
+	margin-bottom: 14px;
+	color: transparent;
+	animation: blinker 1.5s step-start 0s infinite;
+	animation-delay: 2s;
+}
+
+@keyframes blinker {
+	50% {
+		color: #e5e5e5;
+	}
+}
+
+.subtitles {
+	margin-top: 5vh;
+}
+.subtitles_pointer {
+	margin-top: 2vh;
+	display: flex;
+	/* grid-gap: 1%; */
+	/* grid-template-areas: 'auto auto auto'; */
+	grid: 'auto auto auto';
+	align-items: center;
+}
+
+.line_1 {
+	margin: 0;
+	border: 0;
+	background-color: white;
+	height: 2px;
+	width: 100%;
+}
+
+.subtitles_text {
+	display: flex;
+	justify-content: center;
+	color: #e5e5e5;
+	font-family: 'Raleway', sans-serif;
+	font-size: 2em;
+	width: 100%;
+	/* display: flex; */
+}
+
+.highlight_blue {
+	margin-left: 0.5vw;
+	font-weight: 700;
+	color: #32d8ff;
+	/* text-decoration: underline; */
+}
+
+.highlight_green {
+	margin-left: 0.5vw;
+	font-weight: 700;
+	color: #42f45f;
+	/* text-decoration: underline; */
+}
+
+.button {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 1.5em;
+	margin-top: 5vh;
+	color: #e5e5e5;
+	border-radius: 5px;
+	display: inline-block;
+	border: 2px solid #e5e5e5;
+	padding: 1vh 1vw;
+
+	background: transparent;
+	transition: background 0.4s;
+}
+
+.button:hover {
+	background: rgba(247, 247, 247, 0.2);
+	cursor: pointer;
+}
