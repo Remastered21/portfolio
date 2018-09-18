@@ -11,7 +11,8 @@ class App extends Component {
 		return (
 			<div className="App">
 				<Navbar />
-				<Route exact path="/" render={() => <Main />} />
+				<Main />
+				{/* <Route exact path="/" render={() => <Main />} /> */}
 			</div>
 		);
 	}

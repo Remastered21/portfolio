@@ -1,10 +1,17 @@
 import React, { Component } from 'react';
 import Typewriter from 'typewriter-effect';
+import WOW from 'wowjs';
 
 // CSS
 import './main.css';
 
 export default class Main extends Component {
+	componentDidMount() {
+		new WOW.WOW({
+			live: false
+		}).init();
+	}
+
 	render() {
 		return (
 			<div className="container_Main">
@@ -14,17 +21,14 @@ export default class Main extends Component {
 						<Typewriter
 							options={{
 								loop: true,
-								// strings: [ 'こんにちは!', 'hello'],
 								strings: [
 									'',
 									'Hello!',
 									'Salve!',
-									// 'こんにちは!',
 									'Hallo!',
 									'Bonjour!',
 									'Cześć!',
 									'здравствуйте!',
-									'안녕하세요!',
 									'Hola!',
 									'مرحبا!'
 								],
@@ -41,13 +45,13 @@ export default class Main extends Component {
 				<div className="subtitles">
 					<div className="subtitles_pointer">
 						{/* <hr className="line_1" /> */}
-						<div className="subtitles_text animated fadeInDown delay-4s ">
+						<div className="subtitles_text wow fadeInDown" data-wow-delay="2s">
 							My name is
 							<span className="highlight_blue">
 								<Typewriter
 									onInit={(typewriter) => {
 										typewriter
-											.pauseFor(1500)
+											.pauseFor(3000)
 											.typeString('Henry.')
 											.callFunction(() => {
 												console.log('String typed out!');
@@ -61,13 +65,13 @@ export default class Main extends Component {
 					</div>
 					<div className="subtitles_pointer">
 						{/* <hr className="line_1" /> */}
-						<div className="subtitles_text animated fadeInDown delay-4s">
+						<div className="subtitles_text wow fadeInDown" data-wow-delay="4s">
 							I am a
 							<span className="highlight_green">
 								<Typewriter
 									onInit={(typewriter) => {
 										typewriter
-											.pauseFor(4000)
+											.pauseFor(5000)
 											.typeString('Full-Stack Developer.')
 											.callFunction(() => {
 												console.log('String typed out!');
@@ -80,7 +84,7 @@ export default class Main extends Component {
 						{/* <hr className="line_1" /> */}
 					</div>
 				</div>
-				<div className="button">Let me show you around</div>
+				<div className="button">Tell me more</div>
 			</div>
 		);
 	}
