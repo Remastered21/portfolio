@@ -1,6 +1,11 @@
+.wow {
+	visibility: hidden;
+}
+
 .container_Main {
 	width: 100vw;
 	height: 100vh;
+	max-width: 100%;
 	background: linear-gradient(70deg, #191919 30%, rgba(0, 0, 0, 0) 30%),
 		linear-gradient(30deg, #212021 60%, #262525 60%);
 }
@@ -129,9 +134,9 @@
 	display: inline-block;
 	border: 2px solid #e5e5e5;
 	padding: 1vh 1vw;
-
 	background: transparent;
-	transition: background 0.4s;
+	width: 20vw;
+	transition: background 0.4s, content 0.4s;
 }
 
 .button:hover {

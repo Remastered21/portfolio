@@ -1,0 +1,56 @@
+.container_Main1 {
+	width: 100vw;
+	height: 100vh;
+	max-width: 100%;
+	background: #f2f2f2;
+}
+
+.title_container {
+	margin: auto;
+	width: 80vw;
+	height: 100vh;
+	max-width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.title1 {
+	/* border: 1px solid red; */
+	font-family: 'Vollkorn', serif;
+	font-size: 13em;
+	width: 35%;
+	/* margin-bottom: 10vh; */
+}
+
+.description_container {
+	/* border: 1px solid blue; */
+	width: 65%;
+}
+
+.description_title {
+	text-align: center;
+
+	font-family: 'Vollkorn SC', serif;
+	font-size: 4em;
+}
+
+.description_context-container {
+  /* border: 1px solid green; */
+  text-align: center;
+  width: 100%;
+}
+
+.description_context {
+	font-size: 1.4em;
+	font-family: 'Vollkorn', serif;
+}
+
+.description_context1 {
+	font-size: 1.4em;
+	font-family: 'Vollkorn', serif;
+}
+
+.description_context2 {
+	font-size: 1.4em;
+	font-family: 'Vollkorn', serif;
+}

@@ -45,13 +45,13 @@ export default class Main extends Component {
 				<div className="subtitles">
 					<div className="subtitles_pointer">
 						{/* <hr className="line_1" /> */}
-						<div className="subtitles_text wow fadeInDown" data-wow-delay="2s">
+						<div className="subtitles_text wow fadeInDown" data-wow-delay="1.7s">
 							My name is
 							<span className="highlight_blue">
 								<Typewriter
 									onInit={(typewriter) => {
 										typewriter
-											.pauseFor(3000)
+											.pauseFor(2700)
 											.typeString('Henry.')
 											.callFunction(() => {
 												console.log('String typed out!');
@@ -65,13 +65,13 @@ export default class Main extends Component {
 					</div>
 					<div className="subtitles_pointer">
 						{/* <hr className="line_1" /> */}
-						<div className="subtitles_text wow fadeInDown" data-wow-delay="4s">
+						<div className="subtitles_text wow fadeInDown" data-wow-delay="3.7s">
 							I am a
 							<span className="highlight_green">
 								<Typewriter
 									onInit={(typewriter) => {
 										typewriter
-											.pauseFor(5000)
+											.pauseFor(4700)
 											.typeString('Full-Stack Developer.')
 											.callFunction(() => {
 												console.log('String typed out!');
@@ -84,7 +84,8 @@ export default class Main extends Component {
 						{/* <hr className="line_1" /> */}
 					</div>
 				</div>
-				<div className="button">Tell me more</div>
+				<div className="wow fadeIn button" data-wow-delay="8s">Show me around.
+				</div>
 			</div>
 		);
 	}
