@@ -18,15 +18,12 @@ export default class Main extends Component {
 				<div className="title_container">
 					<div className="title1">Bios</div>
 					<div className="description_container">
-						<div className="description_title">My name is Henry Kim.</div>
+						<div className="description_title">Who am I?</div>
 						<div className="description_context-container">
-							<div className="description_context">I am a full-stack web developer.</div>
-							<div className="description_context1">
-								I create visaully appealing and creative UI / UX <br /> and backends for applications
-								that will impact the daily lives of its users.
-							</div>
-							<div className="description_context2">
-								and backends that will handle data with great efficacy.
+							<div className="description_context">
+								<span className="description_mynameis">M</span>y name is Henry Kim.<br /> I've started
+								coding when I was a student researcher in University of Alberta. I ran calculations on
+								molecules through supercomputers using provided scripts
 							</div>
 						</div>
 					</div>

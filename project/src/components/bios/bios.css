@@ -2,7 +2,9 @@
 	width: 100vw;
 	height: 100vh;
 	max-width: 100%;
-	background: #f2f2f2;
+	background: linear-gradient(30deg, rgba(242, 242, 242, 0.90), rgba(242, 242, 242, 0.90)) 100%,
+		url("./business-code-coding-270632.jpg");
+	background-size: cover;
 }
 
 .title_container {
@@ -24,33 +26,28 @@
 
 .description_container {
 	/* border: 1px solid blue; */
-	width: 65%;
+	width: 50%;
+	margin: auto;
+	border: 1px solid red;
 }
 
 .description_title {
 	text-align: center;
-
 	font-family: 'Vollkorn SC', serif;
 	font-size: 4em;
 }
 
 .description_context-container {
-  /* border: 1px solid green; */
-  text-align: center;
-  width: 100%;
+	text-align: start;
+	width: 100%;
+}
+
+.description_mynameis {
+	font-size: 2em;
+	font-family: 'Vollkorn', serif;
 }
 
 .description_context {
-	font-size: 1.4em;
-	font-family: 'Vollkorn', serif;
-}
-
-.description_context1 {
-	font-size: 1.4em;
-	font-family: 'Vollkorn', serif;
-}
-
-.description_context2 {
-	font-size: 1.4em;
+	font-size: 1.2em;
 	font-family: 'Vollkorn', serif;
 }
