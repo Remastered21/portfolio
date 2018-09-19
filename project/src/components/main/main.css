@@ -28,7 +28,7 @@
 	/* border: 1px solid red; */
 	/* min-width: 10vw; */
 	margin-top: 35px;
-	color: #e5e5e5;
+	color: white;
 }
 
 @keyframes enlarge_border {
@@ -50,10 +50,10 @@
 		font-size: 0;
 	}
 	50% {
-		color: #e5e5e5;
+		color: white;
 	}
 	100% {
-		color: #e5e5e5;
+		color: white;
 		font-size: 11rem;
 	}
 }
@@ -76,7 +76,7 @@
 
 @keyframes blinker {
 	50% {
-		color: #e5e5e5;
+		color: white;
 	}
 }
 
@@ -98,6 +98,11 @@
 	background-color: white;
 	height: 2px;
 	width: 100%;
+}
+
+.placeholder {
+	width: 10vw;
+	/* height: 25vh; */
 }
 
 .subtitles_text {
@@ -140,6 +145,7 @@
 }
 
 .button:hover {
-	background: rgba(247, 247, 247, 0.2);
+	color: #212021;
+	background: #e5e5e5;
 	cursor: pointer;
 }

@@ -29,7 +29,7 @@ export default class Main extends Component {
 									'Bonjour!',
 									'Cześć!',
 									'здравствуйте!',
-									'Hola!',
+									'¡Hola!',
 									'مرحبا!'
 								],
 								delay: 'natural',
