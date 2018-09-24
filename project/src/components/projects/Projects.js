@@ -1,5 +1,6 @@
 import React from 'react';
 import { UncontrolledCarousel } from 'reactstrap';
+import './projects.css';
 
 const items = [
 	{
@@ -27,6 +28,7 @@ const items = [
 
 const Projects = () => (
 	<div className="container_carousel">
+		<h1 className='carousel_heading'>My Projects</h1>
 		<div className="carousel">
 			<UncontrolledCarousel items={items} />
 		</div>
