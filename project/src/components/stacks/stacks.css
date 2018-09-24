@@ -18,6 +18,21 @@
 	font-size: 3em;
 }
 
+.stack_list {
+	display: grid;
+}
+
+.stack_icons {
+	display: flex;
+	flex-direction: column;
+}
+
+.stack_descriptions {
+	display: flex;
+	flex-direction: column;
+	color: white;
+}
+
 .ml5 {
 	position: relative;
 	font-weight: 300;
@@ -55,7 +70,7 @@
 }
 
 .ml5 .letters {
-  margin: 0 2px;
+	margin: 0 2px;
 	display: inline-block;
 	opacity: 0;
 }

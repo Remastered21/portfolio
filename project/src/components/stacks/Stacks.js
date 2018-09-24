@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import WOW from 'wowjs';
 import anime from 'animejs';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import './stacks.css';
 
@@ -71,10 +72,30 @@ export default class Stacks extends Component {
 				</div>
 
 				<div className="stack_main">
-					<div className="stack_main-front">Front-End </div>
-					<div className="stack_main-back">Back-End</div>
+					<div>
+						<div className="stack_main-front">Front-End</div>
+						<div className="stack_list">
+							<div className='stack_icons'>
+								<FontAwesomeIcon icon={[ 'fab', 'react' ]} />
+								<FontAwesomeIcon icon={[ 'fab', 'less' ]} />
+								<FontAwesomeIcon icon={[ 'fab', 'css3' ]} />
+								<FontAwesomeIcon icon={[ 'fab', 'js' ]} />
+							</div>
+							<div className='stack_descriptions'>
+                React
+                LESS
+                CSS3
+                JavaScript
+              </div>
+
+						</div>
+					</div>
+					<div>
+						<div className="stack_main-back">Back-End</div>
+					</div>
 				</div>
-					<div className=''>And other small things</div>
+				<div className="">And other small things</div>
+				<FontAwesomeIcon icon={[ 'fab', 'python' ]} />
 			</div>
 		);
 	}
