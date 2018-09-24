@@ -71,9 +71,10 @@ export default class Stacks extends Component {
 				</div>
 
 				<div className="stack_main">
-					<div className="stack_main-front">Front End stuff will be written here</div>
-					<div className="stack_main-back">Back End stuff will be written here</div>
+					<div className="stack_main-front">Front-End </div>
+					<div className="stack_main-back">Back-End</div>
 				</div>
+					<div className=''>And other small things</div>
 			</div>
 		);
 	}

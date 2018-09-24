@@ -2,18 +2,20 @@
 	width: 100vw;
 	height: 100vh;
 	max-width: 100%;
-  background: #bfcf0e;
-	color: #402d2d;  
+	background: #bfcf0e;
+	color: #402d2d;
 }
 
 .title_stack {
-	padding-top: 100px;
+	padding-top: 10vh;
 }
 
 .stack_main {
-	margin-top: 10vh;
+	margin-top: 5vh;
 	display: flex;
 	justify-content: space-evenly;
+	font-family: 'Raleway', sans-serif;
+	font-size: 3em;
 }
 
 .ml5 {
@@ -46,7 +48,6 @@
 
 .ml5 .ampersand {
 	font-family: Baskerville, "EB Garamond", serif;
-	font-style: italic;
 	font-weight: 400;
 	width: 1em;
 	margin-right: -0.1em;
@@ -54,6 +55,7 @@
 }
 
 .ml5 .letters {
+  margin: 0 2px;
 	display: inline-block;
 	opacity: 0;
 }
