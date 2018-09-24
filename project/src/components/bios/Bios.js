@@ -40,14 +40,6 @@ export default class Main extends Component {
 					<div className="description_container">
 						<h1 className="ml10 wow" data-wow-delay="1s">
 							<span className="text-wrapper">
-								<span className="letters">H</span>
-								<span className="letters">E</span>
-								<span className="letters">N</span>
-								<span className="letters">R</span>
-								<span className="letters">Y </span>
-								<span className="letters">K</span>
-								<span className="letters">I</span>
-								<span className="letters">M</span>
 							</span>
 						</h1>
 

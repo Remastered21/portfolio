@@ -1,0 +1,11 @@
+.container_carousel {
+	width: 100vw;
+	height: 100vh;
+	max-width: 100%;
+	background: black;
+}
+
+.carousel {
+	height: 50%;
+	width: 520px;
+}
